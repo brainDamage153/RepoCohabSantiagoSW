@@ -114,7 +114,9 @@
     <Content Include="IngresoLuchador.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="product.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -155,6 +157,16 @@
     <Folder Include="js\" />
     <Folder Include="Models\" />
     <Folder Include="owl-carousel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{07fc5dbe-b5b0-45da-b801-65788e783b8f}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{969633d3-4864-4647-964a-cc02fe37392f}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

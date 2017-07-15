@@ -39,7 +39,7 @@
                         <div class="s-12 l-7">
                              <asp:TextBox ID="txtDireccion" runat="server"></asp:TextBox>
                             <div class="s-12 m-6 l-4">
-                             <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" BackColor="gray"/>
+                             <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" BackColor="gray" OnClick="btnIngresar_Click"/>
                               <%-- <button type="submit">Ingresar</button>--%>
                          </div>
                             <%--<input name="txtDireccion" placeholder="Dirección" title="Your name" type="text" />--%>

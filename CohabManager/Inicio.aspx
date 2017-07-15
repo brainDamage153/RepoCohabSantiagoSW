@@ -12,7 +12,7 @@
                            <h2>Sonrie estás haciendo Jiu Jitsu !</h2>
                         </div>
                         <div class="s-12 l-9">
-                           <p>With amazing responsive carousel
+                           <p>Con Profesores certificados Internacionalmente.
                            </p>
                         </div>
                      </div>

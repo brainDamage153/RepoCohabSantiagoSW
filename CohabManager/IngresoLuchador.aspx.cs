@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace CohabManager
 {
@@ -18,6 +20,23 @@ namespace CohabManager
             txtFechaIngreso.Attributes.Add("placeholder","Fecha Ingreso"); //cambiar a calendario
             txtDireccion.Attributes.Add("placeholder","Dirección");
            
+        }
+
+        public void ClearFieldsLuchador()
+        {
+            txtRut.Text = "";
+            txtNombre.Text = "";
+            txtApellido.Text = "";
+            txtFechaNac.Text = "";
+            txtFechaIngreso.Text = "";
+            txtDireccion.Text = "";
+            ddlCinturon.SelectedValue = "0";
+        }
+
+        protected void btnIngresar_Click(object sender, EventArgs e)
+        {
+            ClearFieldsLuchador();
+
         }
     }
 }

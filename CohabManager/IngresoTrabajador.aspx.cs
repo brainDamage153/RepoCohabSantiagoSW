@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace CohabManager
 {
     public partial class IngresoTrabajador : System.Web.UI.Page
@@ -18,6 +19,21 @@ namespace CohabManager
             txtFechaIngreso.Attributes.Add("placeholder", "Fecha Ingreso"); //cambiar a calendario
             txtDireccion.Attributes.Add("placeholder", "Dirección");
 
+        }
+
+        public void clearFieldsTrabajador()
+        {
+            txtRut.Text = "";
+            txtNombre.Text = "";
+            txtApellido.Text = "";
+            txtFechaNac.Text = "";
+            txtFechaIngreso.Text = "";
+            txtDireccion.Text = "";
+        }
+
+        protected void btnIngresar_Click(object sender, EventArgs e)
+        {
+            clearFieldsTrabajador();
         }
     }
 }
