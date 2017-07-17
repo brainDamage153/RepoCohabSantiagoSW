@@ -97,3 +97,7 @@ C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\CohabManager\bin\Micro
 C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\CohabManager\obj\Debug\CohabManager.csprojResolveAssemblyReference.cache
 C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\CohabManager\obj\Debug\CohabManager.dll
 C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\CohabManager\obj\Debug\CohabManager.pdb
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\CohabManager\bin\Datos.exe
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\CohabManager\bin\Negocio.exe
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\CohabManager\bin\Datos.pdb
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\CohabManager\bin\Negocio.pdb

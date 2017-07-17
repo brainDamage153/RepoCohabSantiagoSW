@@ -17,19 +17,26 @@ namespace Datos.DAO
         private static String CALL_INSERT_USUARIO_PR = "dbo.USUARIO_INSERT_PR";
         #endregion
 
-        public SqlServerConexion(string connectionString)
+        //public SqlServerConexion(string connectionString)
+        //{
+        //    this.connectionString = connectionString;
+        //    command = new SqlCommand();
+        //}
+        public string sqlCnn(string connectionString)
         {
             this.connectionString = connectionString;
-            command = new SqlCommand();
+            return connectionString;
         }
 
-        public void setInsertUsuario(string rut, string nombre, string apellido, DateTime fechaNac, string cinturon, DateTime fechaIngreso, string direccion)
+
+        public void setInsertUsuario(string cnn, string rut, string nombre, string apellido, DateTime fechaNac, string cinturon, DateTime fechaIngreso, string direccion)
         {
             try
             {
+                
                 using (SqlCommand cmd = new SqlCommand())
                 {
-                    using (cmd.Connection = new SqlConnection(connectionString))
+                    using (cmd.Connection = new SqlConnection(cnn))
                     {
                         cmd.CommandText = CALL_INSERT_USUARIO_PR;
                         cmd.CommandType = CommandType.StoredProcedure;
@@ -39,14 +46,14 @@ namespace Datos.DAO
                         cmd.Parameters.Add("@fecha_nac", SqlDbType.Date).Value = fechaNac;
                         cmd.Parameters.Add("@cinturon", SqlDbType.VarChar).Value = cinturon;
                         cmd.Parameters.Add("@fecha_ingreso", SqlDbType.Date).Value = fechaIngreso;
+                        cmd.Parameters.Add("@direccion", SqlDbType.VarChar).Value = direccion;
 
                         cmd.Connection.Open();
-                        SqlDataReader sqlrd = cmd.ExecuteReader();
+                            SqlDataReader sqlrd = cmd.ExecuteReader();
 
                         cmd.Connection.Close();
                         cmd.Connection.Dispose();
-
-
+                        
                     }
 
                 }

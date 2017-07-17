@@ -1,0 +1,8 @@
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Datos\obj\Debug\Datos.Properties.Resources.resources
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Datos\obj\Debug\Datos.csproj.GenerateResource.Cache
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Datos\bin\Debug\Datos.exe.config
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Datos\bin\Debug\Datos.exe
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Datos\bin\Debug\Datos.pdb
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Datos\obj\Debug\Datos.exe
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Datos\obj\Debug\Datos.pdb

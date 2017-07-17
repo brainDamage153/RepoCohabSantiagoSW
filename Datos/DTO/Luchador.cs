@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Datos.DTO
 {
-    class Luchador
+    public class Luchador
     {
         private string rut;
         private string nombre;
@@ -14,6 +14,7 @@ namespace Datos.DTO
         private DateTime fechaNac;
         private string cinturon;
         private DateTime fechaIngreso;
+        private string direccion;
 
        public Luchador()
         {
@@ -99,7 +100,20 @@ namespace Datos.DTO
             }
         }
 
-        public Luchador(string rut, string nombre, string apellido, DateTime fechaNac, string cinturon, DateTime fechaIngreso)
+        public string Direccion
+        {
+            get
+            {
+                return direccion;
+            }
+
+            set
+            {
+                direccion = value;
+            }
+        }
+
+        public Luchador(string rut, string nombre, string apellido, DateTime fechaNac, string cinturon, DateTime fechaIngreso, string direccion)
         {
             this.Rut = rut;
             this.Nombre = nombre;
@@ -107,6 +121,7 @@ namespace Datos.DTO
             this.FechaNac = fechaNac;
             this.Cinturon = cinturon;
             this.FechaIngreso = fechaIngreso;
+            this.Direccion = direccion;
         }
     }
 }

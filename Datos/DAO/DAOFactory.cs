@@ -22,12 +22,19 @@ namespace Datos.DAO
             return factory;
         }
 
-        public static getDAO(string connectionStringName)
-        {
-            string connectionString = ConfigurationManager.ConnectionStrings[connectionStringName].ConnectionString;
+        //public static  getDAO(string connectionStringName)
+        //{
+        //    var connectionString = ConfigurationManager.ConnectionStrings[connectionStringName].ConnectionString;
 
-            return new SqlServerConexion(connectionString);
+        //    switch (connectionStringName)
+        //    {
+        //        case "SQLSERVER":
 
-        }
+        //            return new SqlServerConexion(connectionString);
+
+        //        default:
+        //            throw new Exception();
+        //    }
+        //}
     }
 }

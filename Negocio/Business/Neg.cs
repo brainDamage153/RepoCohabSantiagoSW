@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Datos.DAO;
+using Datos.DTO;
 
 namespace Negocio.Business
 {
@@ -11,9 +12,23 @@ namespace Negocio.Business
     {
         SqlServerConexion sqlcnn = new SqlServerConexion();
 
-        public void setIngresoLuchador(string rut, string nombre, string apellido, DateTime fechaNac, string cinturon, DateTime fechaIngreso, string direccion )
+        public void cnns(string cnn)
         {
-            sqlcnn.setInsertUsuario(rut, nombre, apellido, fechaNac, cinturon, fechaIngreso, direccion);
+            sqlcnn.sqlCnn(cnn);
+        }
+
+        public void setIngresoLuchador(string cnn, string rut, string nombre, string apellido, DateTime fechaNac, string cinturon, DateTime fechaIngreso, string direccion )
+        {
+            Luchador l = new Luchador();
+
+            //l.Rut = rut;
+            //l.Nombre = nombre;
+            //l.Apellido = apellido;
+            //l.FechaNac = fechaNac;
+            //l.Cinturon = cinturon;
+            //l.FechaIngreso = fechaIngreso;
+            //l.Direccion = direccion;
+            sqlcnn.setInsertUsuario(cnn, rut, nombre, apellido, fechaNac, cinturon, fechaIngreso, direccion);
         }
     }
 }

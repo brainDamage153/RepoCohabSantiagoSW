@@ -1,0 +1,10 @@
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\obj\Debug\Negocio.Properties.Resources.resources
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\obj\Debug\Negocio.csproj.GenerateResource.Cache
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\bin\Debug\Negocio.exe.config
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\bin\Debug\Negocio.exe
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\bin\Debug\Negocio.pdb
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\bin\Debug\Datos.exe
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\bin\Debug\Datos.pdb
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\obj\Debug\Negocio.exe
+C:\Users\PABLOANDRESVALENZUEL\Desktop\RepoCohabSantiagoSW\Negocio\obj\Debug\Negocio.pdb
