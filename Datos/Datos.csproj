@@ -50,6 +50,7 @@
     <Compile Include="DAO\DAOFactory.cs" />
     <Compile Include="DAO\SqlServerConexion.cs" />
     <Compile Include="DTO\Luchador.cs" />
+    <Compile Include="DTO\Trabajador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

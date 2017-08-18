@@ -1,33 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Datos.DTO
 {
-    public class Luchador
+    public class Trabajador
     {
+        #region VARIABLES
         private string rut;
         private string nombre;
         private string apellido;
         private DateTime fechaNac;
-        private string cinturon;
         private DateTime fechaIngreso;
         private string direccion;
+        #endregion
 
-        public Luchador()
+        public Trabajador()
         {
 
         }
-
 
         public string Rut
         {
             get
             {
-                return this.rut;
+                return rut;
             }
 
             set
@@ -40,7 +39,7 @@ namespace Datos.DTO
         {
             get
             {
-                return this.nombre;
+                return nombre;
             }
 
             set
@@ -53,7 +52,7 @@ namespace Datos.DTO
         {
             get
             {
-                return this.apellido;
+                return apellido;
             }
 
             set
@@ -66,7 +65,7 @@ namespace Datos.DTO
         {
             get
             {
-                return this.fechaNac;
+                return fechaNac;
             }
 
             set
@@ -75,24 +74,11 @@ namespace Datos.DTO
             }
         }
 
-        public string Cinturon
-        {
-            get
-            {
-                return this.cinturon;
-            }
-
-            set
-            {
-                cinturon = value;
-            }
-        }
-
         public DateTime FechaIngreso
         {
             get
             {
-                return this.fechaIngreso;
+                return fechaIngreso;
             }
 
             set
@@ -105,7 +91,7 @@ namespace Datos.DTO
         {
             get
             {
-                return this.direccion;
+                return direccion;
             }
 
             set
@@ -114,35 +100,18 @@ namespace Datos.DTO
             }
         }
 
-        public Luchador(string rut, string nombre, string apellido, DateTime fechaNac, string cinturon, DateTime fechaIngreso, string direccion)
+        public Trabajador(string rut, string nombre, string apellido, DateTime fechaNac, DateTime fechaIngreso, string direccion)
         {
-            this.Rut = rut;
-            this.Nombre = nombre;
-            this.Apellido = apellido;
-            this.FechaNac = fechaNac;
-            this.Cinturon = cinturon;
-            this.FechaIngreso = fechaIngreso;
-            this.Direccion = direccion;
+            this.rut = rut;
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.fechaNac = fechaNac;
+            this.fechaIngreso = fechaIngreso;
+            this.direccion = direccion;
         }
+        
 
-        public void set(IDataRecord vo)
-        {
 
-            try
-            {
-                //Rut = vo[0].ToString();
-                Nombre = vo[1].ToString();
-                Apellido = vo[2].ToString();
-                FechaNac = (DateTime)vo[3];
-                Cinturon = vo[4].ToString();
-                FechaIngreso = (DateTime)vo[5];
-                Direccion = vo[6].ToString();
-            }
-            catch (Exception e)
-            {
 
-            }
-
-        }
     }
 }

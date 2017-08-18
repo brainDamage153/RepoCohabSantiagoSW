@@ -10,61 +10,61 @@
 namespace CohabManager {
     
     
-    public partial class IngresoTrabajador {
+    public partial class ConsultaLuchador {
         
         /// <summary>
-        /// txtRut_t control.
+        /// txtRut_c control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtRut_t;
+        protected global::System.Web.UI.WebControls.TextBox txtRut_c;
         
         /// <summary>
-        /// txtNombre_t control.
+        /// txtNombre_c control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNombre_t;
+        protected global::System.Web.UI.WebControls.TextBox txtNombre_c;
         
         /// <summary>
-        /// txtApellido_t control.
+        /// txtApellido_c control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtApellido_t;
+        protected global::System.Web.UI.WebControls.TextBox txtApellido_c;
         
         /// <summary>
-        /// txtFechaNac_t control.
+        /// txtFechaNac_c control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaNac_t;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaNac_c;
         
         /// <summary>
-        /// txtFechaIngreso_t control.
+        /// txtFechaIngreso_c control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFechaIngreso_t;
+        protected global::System.Web.UI.WebControls.TextBox txtFechaIngreso_c;
         
         /// <summary>
-        /// txtDireccion_t control.
+        /// txtDireccion_c control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDireccion_t;
+        protected global::System.Web.UI.WebControls.TextBox txtDireccion_c;
         
         /// <summary>
         /// btnIngresar control.
